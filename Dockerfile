@@ -1,5 +1,5 @@
 FROM node:latest
-RUN npm --registry https://registry.npm.taobao.org install -g json-server
+RUN npm install -g json-server
 
 EXPOSE 3000
 VOLUME [ "/data" ]
